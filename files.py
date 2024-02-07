@@ -19,7 +19,6 @@ img = st.file_uploader('Uploading the scv file', type=['png','jpg','jpeg'])
 if img is not None:
     st.image(img)
 
-st.image("porfolio.jpg")
     
 
 #Working with video file
@@ -28,7 +27,7 @@ video_file = st.file_uploader('Upload the video :',type=['mkv','mp4'])
 if video_file is not None:
     st.video(video_file)
 
-st.video("WhatsApp Video 2023-10-18 at 23.31.40_572fe237.mp4")
+
 
 
 #Working with audio file
